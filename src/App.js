@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Todos from "./components/Todos/Todos";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import { Layout, Menu, Breadcrumb, Typography } from "antd";
 import { DesktopOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";

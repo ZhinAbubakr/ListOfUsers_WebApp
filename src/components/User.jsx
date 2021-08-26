@@ -42,11 +42,20 @@ class User extends Component {
           </form>
         ) : (
           <div className="user">
-            <span className="user-name">{this.props.name}</span>
-            <span className="user-email">{this.props.email}</span>
+            <span className="user-name" style={{ paddingRight: 15 }}>
+              <h4>Nmae :</h4>
+              {this.props.name}
+            </span>
+            <span className="user-email">
+              <h4>Email :</h4>
+              {this.props.email}
+            </span>
+
             <div>
+              <br />
               <button onClick={this.handleEdit}>Edit</button>
               <button onClick={this.handleDelete}>Delete</button>
+              <hr class="dashed" />
             </div>
           </div>
         )}
